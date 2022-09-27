@@ -1,0 +1,40 @@
+html{
+  font-family: "Lato", sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.seccion{
+  background-color: darkcyan;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.parrafo{
+  background-color:rgb(251, 238, 245);
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+
+.parrafo .dragging{
+  opacity: 0.3;
+}
+
+
+.papelera{
+  background-color: rgb(251, 238, 245);
+  padding: 2rem;
+  border-radius: 1rem;  
+  width: 8rem;
+  text-align: center;
+}
